@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ringa Tech - Intelligent Neural Network</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>AI Neural Network: Intelligent Color Picker</h1>
+    
+    <!-- Input for the user to pick a background color -->
+    <input data-jscolor="{value:'#3498db'}" oninput="updateColor(this.jscolor)">
+    
+    <!-- Section whose background and text color will be updated -->
+    <div id="sitio">My Awesome Website</div>
+
+    <!-- External JS libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.5/jscolor.min.js"></script>
+    <script src="https://unpkg.com/brain.js"></script>
+
+    <!-- Link to external JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
